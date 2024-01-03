@@ -1,0 +1,143 @@
+:root {
+    --bg-dark: #0e0e10;
+    --bg-gray: #a8b4c3;
+    --lemon: #CAFF33;
+    --light-dark: #1C1C1C;
+    --shadow-dark: #262626;
+    --yellow-mood: #feef3c;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: black !important;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.profile {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+main {
+    width: 100%;
+    background-color: #1C1C1C;
+}
+
+nav {
+    background-color: var(--bg-dark);
+    padding: 10px 30px;
+    position: fixed;
+    width: 100%;
+   z-index: 1000;
+   box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn {
+    border: 2px solid #be5001 !important;
+    border-radius: 30px !important;
+    padding: 10px 30px !important;
+    color: #be5001 !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+}
+
+.wrap {
+    padding-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+input {
+    width: 100%;
+    background-color: transparent !important;
+    border-radius: 30px !important;
+    border: 1px solid var(--shadow-dark) !important;
+    color: gray !important;
+    padding: 10px 20px !important;
+    font-weight: 500 !important;
+    box-shadow: none !important;
+}
+
+::placeholder {
+    color: gray !important;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.icon-wrap {
+    border: 1px solid var(--shadow-dark);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.icon-wrap i {
+    color: gray;
+    cursor: pointer;
+}
+
+.bg-des {
+    background-color: #be5001;
+    border-radius: 0px 0px 10px 10px;
+    color: #fff;
+}
+
+.bg-des h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.bg-des h5 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.bg-des p {
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: line-through;
+}
+
+button {
+    background-color: black;
+    padding: 10px 20px !important;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 8px !important;
+    border: none !important;
+}
+
+.card img {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card {
+    border: none !important;
+    box-shadow: 0px 0px 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px !important;
+}
+
+@media only screen and (max-width: 999px) {
+    .wrap {
+        padding-top: 150px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+    }
+}
